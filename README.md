@@ -4,6 +4,11 @@ Negroni middleware that sends request response times and status codes to StatsD 
 
 (Will probably work with most similar frameworks, YMMV)
 
+#### Functionality
+
+1. Report request latency
+1. Report status code counts
+
 #### Usage
 
 ```go
